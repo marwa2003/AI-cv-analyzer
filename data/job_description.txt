@@ -1,0 +1,30 @@
+Machine Learning Intern
+
+We are looking for a Machine Learning Intern to join our AI team.
+
+Requirements:
+
+- Python programming
+- Machine Learning
+- Scikit-learn
+- Pandas
+- NumPy
+- SQL
+- NLP
+- Git
+- Docker
+
+Responsibilities:
+
+- Clean and preprocess datasets
+- Train and evaluate machine learning models
+- Perform exploratory data analysis
+- Develop machine learning solutions
+- Work with the AI team
+- Document experiments and results
+
+Nice to have:
+
+- Experience with RAG
+- Experience with FastAPI
+- Knowledge of cloud platforms
