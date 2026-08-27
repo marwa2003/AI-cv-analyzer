@@ -57,8 +57,10 @@ function SkillBadge({ result, showTilde }) {
 }
 
 
-function App() {
 
+const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+
+function App() {
   // ==========================================================
   // STATE
   // ==========================================================
@@ -204,12 +206,12 @@ Document experiments and results.`
 
 
       const response = await fetch(
-        "http://127.0.0.1:8000/analyze",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+  `${API_URL}/analyze`,
+  {
+    method: "POST",
+    body: formData,
+  }
+);
 
 
       if (!response.ok) {
